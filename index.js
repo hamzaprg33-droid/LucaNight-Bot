@@ -46,7 +46,6 @@ const DBD = new Dashboard.Dash(client, {
   redirectUri: "http://localhost:8080/callback",
   domain: "http://localhost",
   ownerIDs: ["DEINE_DISCORD_ID"],
-  theme: Dashboard.Themes.Dark,
   settings: [
     {
       categoryId: "setup",
